@@ -1,3 +1,65 @@
+<p align="center">
+  <img alt="commitlint" src="https://res.cloudinary.com/practicaldev/image/fetch/s--0GjySa5t--/c_imagga_scale,f_auto,fl_progressive,h_720,q_auto,w_1280/https://dev-to-uploads.s3.amazonaws.com/i/r1gk3rq3o70t3zghna8w.png" width="250px" float="center"/>
+</p>
+
+<h1 align="center">Welcome to commitlint template repository</h1>
+
+<p align="center">
+  <strong>Automating the standardization of good commit messages with commitlint + husky + commitizen</strong>
+</p>
+
+<p align="center">
+  <a href="https://github.com/lpmatos/commitlint">
+    <img alt="Open Source" src="https://badges.frapsoft.com/os/v1/open-source.svg?v=102">
+  </a>
+
+  <a href="https://github.com/lpmatos/commitlint/graphs/contributors">
+    <img alt="GitHub Contributors" src="https://img.shields.io/github/contributors/lpmatos/commitlint">
+  </a>
+
+  <a href="https://github.com/lpmatos/commitlint">
+    <img alt="GitHub Language Count" src="https://img.shields.io/github/languages/count/lpmatos/commitlint">
+  </a>
+
+  <a href="https://github.com/lpmatos/commitlint">
+    <img alt="GitHub Top Language" src="https://img.shields.io/github/languages/top/lpmatos/commitlint">
+  </a>
+
+  <a href="https://github.com/lpmatos/commitlint/stargazers">
+    <img alt="GitHub Stars" src="https://img.shields.io/github/stars/lpmatos/commitlint?style=social">
+  </a>
+
+  <a href="https://github.com/lpmatos/commitlint/commits/master">
+    <img alt="GitHub Last Commit" src="https://img.shields.io/github/last-commit/lpmatos/commitlint">
+  </a>
+
+  <a href="https://github.com/lpmatos/commitlint">
+    <img alt="Repository Size" src="https://img.shields.io/github/repo-size/lpmatos/commitlint">
+  </a>
+
+  <a href="https://github.com/lpmatos/commitlint/issues">
+    <img alt="Repository Issues" src="https://img.shields.io/github/issues/lpmatos/commitlint">
+  </a>
+
+  <a href="https://github.com/lpmatos/commitlint/blob/master/LICENSE">
+    <img alt="MIT License" src="https://img.shields.io/github/license/lpmatos/commitlint">
+  </a>
+</p>
+
+### Menu
+
+<p align="left">
+  <a href="#pre-requisites">Pre-Requisites</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#description">Description</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#how-to-contribute">How to contribute</a>
+</p>
+
+### By me a coffe
+
+Pull requests are welcome. If you'd like to support the work and buy me a ☕, I greatly appreciate it!
+
+<a href="https://www.buymeacoffee.com/EatdMck" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 100px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
+
 ### Getting Started
 
 If you want use this repository you need to make a **git clone**:
@@ -8,13 +70,42 @@ git clone --depth 1 https://github.com/lpmatos/commitlint.git -b master
 
 This will give access on your **local machine**.
 
-### Write good commit messages
+### Pre-Requisites
+
+To this project you yeed:
+
+* NPM | Yarn (package tool)
+* Install Packages
+  * Husky
+  * Commitlint
+  * Commitizen
+
+
+### How to use it?
+
+#### Locale
+
+1. Install package.json dependencies.
+2. Git add files.
+3. Run npm run commit to call commitizen, build your commit message and husky validate it. 
+4. Push to remote repository.
+5. Profit.
+
+### Description
+
+#### Create good commit messages
+
+We all did bad commit messages. Lucky us, Conventional Commits specification exists, and with it a set of powerful tools to help us.
+
+To enforce a standard every time we make a commit, we have husky and commitlint. Husky listen to git hooks, and we will use it to trigger the commitlint when we type a commit message.
+
+Commitizen is a package that makes it easier to create commit messages following the previous specification.
 
 * husky
-* commitizen
 * commitlint
+* commitizen
 
-### Commit Lint
+#### Commit Lint
 
 <strong>Requirements:</strong>
 
