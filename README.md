@@ -1,3 +1,13 @@
+### Getting Started
+
+If you want use this repository you need to make a **git clone**:
+
+```bash
+git clone --depth 1 https://github.com/lpmatos/commitlint.git -b master
+```
+
+This will give access on your **local machine**.
+
 ### Write good commit messages
 
 * husky
@@ -110,6 +120,25 @@ git commit -m "Added - Fixing somethings"
 git push -u origin master
 ```
 
+### License
+
+Distributed under the MIT License. See [LICENSE](LICENSE) for more information.
+
+### Author
+
+👤 **Lucca Pessoa**
+
+Hey!! If you like this project or if you find some bugs feel free to contact me in my channels:
+
+> * Email: luccapsm@gmail.com
+> * Website: https://github.com/lpmatos
+> * Github: [@lpmatos](https://github.com/lpmatos)
+> * LinkedIn: [@luccapessoa](https://www.linkedin.com/in/lucca-pessoa-4abb71138/)
+
 ### Show your support
 
 Give a ⭐️ if this project helped you!
+
+---
+
+<p align="center">Feito com ❤️ by <strong>Lucca Pessoa :wave:</p>
